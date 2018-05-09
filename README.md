@@ -13,6 +13,7 @@ Joy是一个捕获数据包、分析网络流量数据、网络研究取证及�
 ## building
 1. sudo apt-get install build-essential libssl-dev libpcap-dev libcurl4-openssl-dev
 2. git clone https://github.com/cisco/joy.git
+
    cd joy
 3. ./config
 4. make
