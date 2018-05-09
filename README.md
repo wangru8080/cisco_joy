@@ -29,3 +29,5 @@ Joy是一个捕获数据包、分析网络流量数据、网络研究取证及�
 其中生成的xx.gz压缩文件中包含了提取的流量特征的json文件
 
 关于其他使用方法见joy使用手册：https://github.com/cisco/joy/blob/master/doc/using-joy-05.pdf
+
+### 我已经将joy编译好了，需要使用的下载bin文件，可以直接使用，若遇到其他问题，欢迎提问留言
