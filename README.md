@@ -1,6 +1,6 @@
 # cisco joy
 
-Joy是一个捕获数据包、分析网络流量数据、网络研究取证及安全监控的工具。能够解析pcap包，生成json文件，里面包含了多种网络流量特征，方便对其进行分析。
+Joy是一个捕获数据包、分析网络流量数据、网络研究取证及安全监控的工具。能够解析pcap包，生成json文件，里面包含了多种网络流量特征，方便对其进行分析。(目前版本为2.0）
 
 详情参考http://netsecurity.51cto.com/art/201601/504015.htm 以及https://github.com/cisco/joy 
 
@@ -10,7 +10,7 @@ Joy是一个捕获数据包、分析网络流量数据、网络研究取证及�
 
 参考：https://github.com/cisco/joy/wiki/Building
 
-## building
+### building
 1. sudo apt-get install build-essential libssl-dev libpcap-dev libcurl4-openssl-dev
 2. git clone https://github.com/cisco/joy.git
 
@@ -18,5 +18,14 @@ Joy是一个捕获数据包、分析网络流量数据、网络研究取证及�
 3. ./config
 4. make
 
-## 遇到的坑
-在./config阶段报错，提示缺少libz库，只用sudo apt-get install zlib1g zlib1g-dev即可
+### 遇到的坑
+在./config阶段报错，提示缺少libz库，只用运行命令sudo apt-get install zlib1g zlib1g-dev即可
+
+## 简单使用joy的方法
+进入joy/bin目录（假设存在xx.pcap文件）：
+
+运行命令：./joy output=xx.gz xx.pcap
+
+其中生成的xx.gz压缩文件中包含了提取的流量特征的json文件
+
+关于其他使用方法见joy使用手册：https://github.com/cisco/joy/blob/master/doc/using-joy-05.pdf
