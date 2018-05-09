@@ -6,7 +6,7 @@ Joy是一个捕获数据包、分析网络流量数据、网络研究取证及�
 
 其中cisco论文使用到joy工具并提取流量特征，进而进行相关分析。参考cisco论文：《Deciphering Malware’s use of TLS (without Decryption)》 链接:https://arxiv.org/pdf/1607.01639.pdf
 
-## 在Ubuntu环境下配置Cisco的joy以及遇到的坑
+## 1. 在Ubuntu环境下配置Cisco的joy
 
 参考：https://github.com/cisco/joy/wiki/Building
 
@@ -18,10 +18,10 @@ Joy是一个捕获数据包、分析网络流量数据、网络研究取证及�
 3. ./config
 4. make
 
-### 遇到的坑
+### 2. 遇到的坑
 在./config阶段报错，提示缺少libz库，只用运行命令sudo apt-get install zlib1g zlib1g-dev即可
 
-## 简单使用joy的方法
+## 3. 简单使用joy的方法
 进入joy/bin目录（假设存在xx.pcap文件）：
 
 运行命令：./joy output=xx.gz xx.pcap
