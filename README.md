@@ -4,7 +4,7 @@ Joy是一个捕获数据包、分析网络流量数据、网络研究取证及�
 
 详情参考http://netsecurity.51cto.com/art/201601/504015.htm 以及https://github.com/cisco/joy 
 
-参考cisco论文：《Deciphering Malware’s use of TLS (without Decryption)》 链接:https://arxiv.org/pdf/1607.01639.pdf
+其中cisco论文使用到joy工具并提取流量特征，进而进行相关分析。参考cisco论文：《Deciphering Malware’s use of TLS (without Decryption)》 链接:https://arxiv.org/pdf/1607.01639.pdf
 
 ## 在Ubuntu环境下配置Cisco的joy以及遇到的坑
 
