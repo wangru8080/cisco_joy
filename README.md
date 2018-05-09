@@ -18,10 +18,10 @@ Joy是一个捕获数据包、分析网络流量数据、网络研究取证及�
 3. ./config
 4. make
 
-### 2. 遇到的坑
+### 遇到的坑
 在./config阶段报错，提示缺少libz库，只用运行命令sudo apt-get install zlib1g zlib1g-dev即可
 
-## 3. 简单使用joy的方法
+## 2. 简单使用joy的方法
 进入joy/bin目录（假设存在xx.pcap文件）：
 
 运行命令：./joy output=xx.gz xx.pcap
