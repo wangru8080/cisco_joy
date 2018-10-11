@@ -36,4 +36,4 @@ Joy是一个捕获数据包、分析网络流量数据、网络研究取证及�
 
 关于其他使用方法见joy使用手册：https://github.com/cisco/joy/blob/master/doc/using-joy-05.pdf
 
-### 我已经将joy编译好了，需要使用的下载bin文件，可以直接使用，不需要其他配置
+### 已经将joy编译好了，需要使用的下载bin文件，可以直接使用，不需要其他配置
